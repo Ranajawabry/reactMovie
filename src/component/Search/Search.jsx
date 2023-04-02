@@ -51,8 +51,8 @@ export default function Search({populars , nowPlaying, topRated, popularsTv}) {
       movieResult.map((movie,index)=>(
         <Link to={`/movie/${movie.id}`}>
           <div className={` ${style.popular} row rounded`} key={index} >
-          <div className='col-2'>
-            <img src={`https://www.themoviedb.org/t/p/w220_and_h330_face${movie.poster_path}`} alt="" srcset="" />
+          <div className='col-3'>
+            <img src={`https://www.themoviedb.org/t/p/w220_and_h330_face${movie.poster_path}`} className='w-100' alt="" srcset="" />
           </div>
           <div className='ps-4 col-8'>
             <h5>{movie.original_title}</h5>
