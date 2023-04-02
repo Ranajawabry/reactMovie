@@ -1,0 +1,62 @@
+.header{
+    background-image: url(../../../public/Header.jpg);
+    background-size: cover;
+    height: 100vh;
+   
+}
+.text_con{
+    padding: 10%;
+
+}
+.text_con h1{
+    font-size: 4rem ;
+    font-weight : 700;
+}
+.text_con h2{
+    font-size: 2rem;
+}
+.header input:nth-child(1){
+   margin-bottom: 20%;
+   margin-left: 10%;
+   position: relative;
+   
+}
+
+.search{
+    padding: 9.5px 35px;
+    position: absolute;
+    right: 15%;
+    top: -2%;
+    background: linear-gradient(rgb(26, 209, 176),rgb(4, 183, 221));
+   
+}
+/*///////////////////*/
+
+@media (max-Width:991px){
+    .header{
+        background-position: center;
+        height: 80vh;
+    }
+    
+    
+    .text_con h1{
+        font-size: 3.5rem ;
+    }
+    .text_con h2{
+        font-size: 2rem;
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+    .header input:nth-child(1){
+        width:85% !important;
+    }
+    .search{
+        
+        right: 5%;
+       
+        
+       
+    }
+
+}

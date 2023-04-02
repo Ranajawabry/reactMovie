@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dosis&family=Fira+Sans&family=Josefin+Sans:wght@700&family=Montserrat&family=Raleway&family=Roboto&family=Source+Sans+Pro&family=Urbanist&display=swap');
+
+body {
+  margin: 0;
+  font-family:Source Sans Pro;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

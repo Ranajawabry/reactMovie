@@ -1,0 +1,20 @@
+
+.detail{
+    background-color: rgba(31, 34, 54 ,1);
+    
+}
+  
+
+.tag{
+    font-style: italic;
+    color:#92939e;
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+
+.percent{
+    width: 60px;
+    height: 60px;
+    line-height: 45px;
+}

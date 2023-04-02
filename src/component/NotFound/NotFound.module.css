@@ -1,0 +1,5 @@
+.notfound{
+    background-image: url(../../../public/notFound.png);
+    background-size: contain;
+    height: 100vh;
+}

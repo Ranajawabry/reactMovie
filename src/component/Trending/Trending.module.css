@@ -1,0 +1,37 @@
+.head{
+    border: 1px solid #032541;
+    background-color: #032541 ;
+   
+}
+
+.head a{
+    color: white !important;
+}
+.head a:hover {
+    color: aqua !important;
+}
+.inner_Movies{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 420px;
+    transition: .5s;
+    position: relative;
+    background: linear-gradient(rgba(26, 209, 176 , 0.3),rgb(4, 183, 221, 0.3 )) !important;
+}
+
+
+.popular{
+    box-shadow : 1px 2px 10px gray;
+}
+.popular p{
+    color:gray;
+}
+
+.percent{
+    color: white;
+    background-color: #081c22;
+    border-radius: 50%;
+    position: absolute;
+    padding: 9px;
+    top:-21px
+}
