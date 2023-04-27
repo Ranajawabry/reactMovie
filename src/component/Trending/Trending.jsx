@@ -56,7 +56,13 @@ export default function Trending() {
     autoplay: true,
     interval: 3000 ,
     breakpoints: {
-     991: {
+     1300:{
+      perPage: 5,
+     },
+     1200 :{
+      perPage: 4
+     },
+      991: {
       perPage: 3,
      },
       640: {
