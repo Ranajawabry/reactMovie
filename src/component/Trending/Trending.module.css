@@ -11,12 +11,10 @@
     color: aqua !important;
 }
 .inner_Movies{
-    overflow-x: scroll;
-    overflow-y: hidden;
-    height: 420px;
-    transition: .5s;
+   
+    height: 30rem;
     position: relative;
-    background: linear-gradient(rgba(26, 209, 176 , 0.3),rgb(4, 183, 221, 0.3 )) !important;
+    background: linear-gradient(rgba(26, 209, 176 , 0.2),rgb(4, 183, 221, 0.2 )) !important;
 }
 
 
@@ -35,3 +33,14 @@
     padding: 9px;
     top:-21px
 }
+
+@media (Max-width:765px) {
+   .popular{
+    width: 17rem !important;
+    margin: auto !important;
+   }
+   .Trend_head{
+    gap:3rem !important;
+   }
+}
+    
